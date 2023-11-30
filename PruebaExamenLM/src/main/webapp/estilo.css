@@ -1,0 +1,45 @@
+@charset "UTF-8";
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            text-align: centre;
+        }
+
+        h1{
+            color: #333;
+        }
+
+        img {
+           margin-top: 20px
+        }
+
+        ul {
+           
+            padding: 0;
+        }
+
+        li {
+            margin: 10px ;
+        }
+
+       p{
+	   height: 10%;
+	   }
+	   .doble{
+		   display: grid;
+		   grid-template-columns: repeat(3,1fr);
+		   width: 90%;
+		   margin: 5%;
+		   grid-gap: 30px;
+	   }
+	   .doble img{
+		   width: 100%;
+		   transition: all 300ms;
+		   position: relative;
+		   max-height: 300px;
+	   }
+	   .doble img:hover{
+		   transform: scale(2);
+			
+	   }
+	   
